@@ -1,31 +1,4 @@
-## Oppsett av prosjektet<br/>
-klon prosjektet med SSH/HTTP nøkkel <br/>
-<br/>
-Gå inn i 
-### `prosjekt-3->my-app`
 
-I prosjekt directorien skriver du
-### `npm install`
-Man må kjøre backend og frontend separat <br/>
-#### Backend: 
-### `cd backend`
-### `npm run dev`
-#### Frontend:
-### `cd my-app`
-### `npm start`
-
-## Kjøring av tester<br/>
-#### End-2-End
-Viktig å være i prosjekt-3 directorien (ikke i my-app eller backend)<br/>
-Installering av cypress:
-### `npm install cypress --save-dev`
-For å kjøre testene skriver du:
-### `./node_modules/.bin/cypress open`
-
-
-#### Enhetstesting (Jest og snapshot)<br/>
-### `cd my-app`
-### `npm test`
 
 # Movie Explorer 
 <br/>
@@ -135,4 +108,31 @@ Vi har tatt i bruk git gjennom hele prosjektet. Prosjektplanleggingen startet me
 Samarbeidet under prosjektet har fungert bra ettersom 2 personer satt seg inn i context og 1 person inn i backend og koblingene. Det ble brukt mye tid på å opparbeide seg kunnskap før logikken kunne bli implementert. Etter at begge parter hadde fått en god forståelse for sin del satt vi oss sammen og koblet sammen de forskjellige delene. Dette førte til at vi fikk til all logikken, og kunne lære av hverandre.
 
 
-# Kilder
+## Oppsett av prosjektet<br/>
+klon prosjektet med SSH/HTTP nøkkel <br/>
+<br/>
+Gå inn i 
+### `prosjekt-3->my-app`
+
+I prosjekt directorien skriver du
+### `npm install`
+Man må kjøre backend og frontend separat <br/>
+#### Backend: 
+### `cd backend`
+### `npm run dev`
+#### Frontend:
+### `cd my-app`
+### `npm start`
+
+## Kjøring av tester<br/>
+#### End-2-End
+Viktig å være i prosjekt-3 directorien (ikke i my-app eller backend)<br/>
+Installering av cypress:
+### `npm install cypress --save-dev`
+For å kjøre testene skriver du:
+### `./node_modules/.bin/cypress open`
+
+
+#### Enhetstesting (Jest og snapshot)<br/>
+### `cd my-app`
+### `npm test`
